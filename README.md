@@ -2,10 +2,10 @@
 **Track A | Spring 2026 | UC Berkeley**
 
 ## Group Members
-| Name | Role |
-|------|------|
-| [Nathan Yue 1] | Group Leader — Data, FRED API, EDA |
-| [Name 2] | Modeler — ML training and evaluation |
+| Name | 
+|------|
+| [Nathan Yue ] | 
+| [Brandon Lee] |
 
 ## Project Overview
 We nowcast current-quarter US real GDP growth using monthly and weekly

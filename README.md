@@ -16,15 +16,28 @@ and benchmark against the Atlanta Fed GDPNow and NY Fed Staff Nowcast.
 
 ## Repository Structure
 ```
-econ148-project3/
-├── notebooks/
-│   └── gdp_nowcasting.ipynb   # Main analysis notebook
+├── README.md
 ├── data/
-│   └── README.md              # Data sources and notes
-├── writeup/
-│   ├── checkpoint1.tex        # LaTeX source
-│   └── checkpoint1.pdf        # Compiled PDF
-└── README.md                  # This file
+│   ├── raw/
+│   ├── processed/
+│   └── external/
+├── notebooks/
+│   ├── 01_data_collection.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_baseline_model.ipynb
+│   └── 04_ml_comparison.ipynb
+├── scripts/
+│   ├── fetch_fred_data.py
+│   ├── clean_series.py
+│   ├── build_features.py
+│   ├── baseline_models.py
+│   └── ml_models.py
+├── reports/
+│   ├── figures/
+│   ├── tables/
+│   └── final_report.tex
+└── requirements.txt
+
 ```
 
 ## Data Sources
